@@ -5,17 +5,19 @@ $button-base-vertical-padding: 12px;
 $button-base-horizontal-padding: 16px;
 
 ////// Colors
-$primary: #1EAEDB;
-$secondary: #0FA0CE;
+$primary: #008260;
+$secondary: #594D7B;
 
-$darker-gray: #444;
-$dark-gray: lighten(#444, 10%);
-$gray: lighten(#444, 20%);
-$light-gray: lighten(#444, 30%);
-$lighter-gray: lighten(#444, 40%);
+$darker-gray: #4A5451;
+$dark-gray: lighten(#4A5451, 10%);
+$gray: lighten(#4A5451, 20%);
+$light-gray: lighten(#4A5451, 30%);
+$lighter-gray: lighten(#4A5451, 40%);
 
-$body-font: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$body-font: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $body-line-height: 1.6;
 $body-font-size: 1.5em;
 $body-color: $gray;
 $grid_breakpoint_space: 40;
+
+$heading-font: 'Playfair Display', Georgia, serif;

@@ -16,11 +16,11 @@
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@whiteboardis">
- 
+
 <meta name="twitter:title" content="<?php the_title(); ?>">
 <meta name="twitter:description" content="">
 <meta name="twitter:image:src" content="<?php bloginfo('template_directory');?>/assets/dist/img/share-img.jpg">
- 
+
 <meta name="og:image" content="<?php bloginfo('template_directory');?>/assets/dist/img/og-share.jpg">
 <meta property="og:title" content="<?php the_title(); ?>">
 <meta property="og:site_name" content="<?php the_title(); ?>">
@@ -28,6 +28,9 @@
 <meta property="og:description" content="">
 
 <?php wp_head(); ?>
+<script src="https://use.typekit.net/kpv4kbe.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
 </head>
 
 <body <?php body_class(); ?>>

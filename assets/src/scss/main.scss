@@ -1,6 +1,33 @@
+.logo {
+  width: 194px;
+  height: 61px;
+  background-repeat: no-repeat;
+  background-image: url('../assets/dist/images/logo.svg');
+}
+
 .masthead {
   position: relative;
+  overflow: hidden;
+  height: 535px;
+  .col-md-6 {
+    position: absolute;
+    height: 100%;
+    padding: 30px;
+    background-color: rgba(#fff,.98);
+    .hero-cta {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      h2 {
+        font-size: 40px;
+      }
+    }
+  }
   img {
     position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
   }
 }

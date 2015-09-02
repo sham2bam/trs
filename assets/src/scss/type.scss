@@ -1,10 +1,12 @@
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 $headers: (h1,h2,h3,h4,h5,h6);
-h1, h2, h3, h4, h5, h6 { 
+h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
-  font-weight: 600; }
+  font-weight: 600;
+  font-family: $heading-font;
+  color: $darker-gray; }
 
 @for $i from 1 to 6 {
   h#{$i} {
@@ -28,9 +30,10 @@ p {
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-a { 
-  color: $primary; }
-a:hover { 
+a {
+  color: $primary;
+  transition:.2s; }
+a:hover {
   color: darken($primary, 10%); }
 
 .uc, .u-t-uc {
@@ -49,5 +52,3 @@ a:hover {
 .u-za {
   margin: 0 auto;
 }
-
-
