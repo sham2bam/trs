@@ -1,0 +1,8 @@
+session_name="${PWD##*/}"
+tmux new-session -d -s $session_name ;
+tmux split-window -v ;
+tmux split-window -h ;
+tmux send-keys -t 1 'git log' C-m
+tmux send-keys -t 2 'gulp watch' C-m
+tmux select-pane -t 0
+tmux attach -t $session_name
