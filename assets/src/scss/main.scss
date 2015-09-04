@@ -1,3 +1,4 @@
+
 .logo {
   width: 194px;
   height: 61px;
@@ -60,6 +61,23 @@
           p {
             margin-bottom: 5px;
           }
+        }
+      }
+    }
+    &.services {
+      overflow-x: hidden;
+      .col-md-fw-4 {
+        position: relative;
+        left: 66%;
+        @media (max-width: $screen-sm-max) {
+          left: 0;
+        }
+      }
+      .pull-content {
+        position: relative;
+        right: 34%;
+        @media (max-width: $screen-sm-max) {
+          right: 0;
         }
       }
     }
