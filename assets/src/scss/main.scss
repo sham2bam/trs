@@ -37,12 +37,31 @@
 .off-white-section {
   background-color: $off-white;
   padding: 50px 0;
+  .row {
+    margin: 20px 10px;
+  }
   .container {
     background-color: #fff;
     box-shadow: 0 0 4px rgba(#111, .12);
-    padding: 20px;
-    h3 {
-      font-size: 30px;
+    .content-img {
+      overflow: hidden;
+      img {
+        min-width: 150%;
+      }
+    }
+    .vertc-parent {
+      min-height: 380px;
+      &.col-md-8 {
+        .vertc-child {
+          padding: 10px 50px;
+          h3 {
+            font-size: 30px;
+          }
+          p {
+            margin-bottom: 5px;
+          }
+        }
+      }
     }
   }
 }

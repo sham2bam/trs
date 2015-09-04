@@ -38,12 +38,12 @@ $breakpoints: (
     .u-m-#{$breakpoint}-0 { margin: 0; }
 
 		// Grid scaffold
-    .col-#{$breakpoint}-omega {
-      @include omega();
-    }
 		@for $i from 1 through $grid-columns {
 			.col-#{$breakpoint}-#{$i} {
 				@include span-columns($i);
+			}
+			.col-#{$breakpoint}-fw-#{$i} {
+				@include span-columns($i of $grid-columns, block-collapse);
 			}
 			.col-#{$breakpoint}-offset-#{$i} {
 				@include shift($i);
@@ -78,6 +78,9 @@ $breakpoints: (
 			.vm-#{$breakpoint}-bottom-#{$i} {
 				margin-bottom: $vertical-pad-base * $i;
 			}
+		}
+		.col-#{$breakpoint}-omega {
+			@include omega();
 		}
 	}
 }
