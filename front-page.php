@@ -43,9 +43,8 @@
             <p>
               Many people invest in staging and organizing just in time to sell and leave the home. Why wait until you will sell your house in order for the next owner enjoy all those improvements? Why wait until you leave to improve your home, when you can enjoy being in an organized, clean, personally designed home throughout the time you live there?
             </p>
-            <a href="/" class="button btn btn-primary">Read More</a>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <ul>
               <li>
                 staging
@@ -60,6 +59,9 @@
                 interior design
               </li>
             </ul>
+          </div>
+          <div class="btn-container">
+            <a href="/" class="button btn btn-primary">Read More</a>
           </div>
         </div>
       </div>
