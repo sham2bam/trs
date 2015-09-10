@@ -102,6 +102,7 @@ function launchframe_scripts() {
 	wp_enqueue_script( 'lf-jquery', 'https://code.jquery.com/jquery-1.11.2.min.js', null, $package_version, true);
 	wp_enqueue_style( 'launchframe-style-custom', get_template_directory_uri() . "/assets/dist/css/style.css"  );
 	wp_enqueue_script( 'buildjs', get_template_directory_uri() . '/assets/dist/js/script.js', array( 'lf-jquery' ), $package_version, true );
+	wp_enqueue_script( 'slick-slider', get_template_directory_uri() . '/assets/src/js/slick.min.js', array( 'lf-jquery' ), $package_version, true );
 	// GO LIVE - min files
 	//	wp_enqueue_style( 'launchframe-style-custom', get_template_directory_uri() . "/assets/dist/css/style.min.css"  );
 	//	wp_enqueue_script( 'buildjs', get_template_directory_uri() . '/assets/dist/js/script.min.js', array( 'lf-jquery' ), $package_version, true );

@@ -36,12 +36,17 @@
 <body <?php body_class(); ?>>
 
 	<header class="site-header" role="banner">
-		<div class="logo">
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="site-navigation" role="navigation">
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-		</nav><!-- #site-navigation -->
+		<div class="container">
+			<div class="col-md-6">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="logo">
+					<h1><?php bloginfo( 'name' ); ?></h1>
+				</a>
+			</div>
+			<div class="col-md-6">
+				<nav id="site-navigation" class="site-navigation" role="navigation">
+					<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+				</nav><!-- #site-navigation -->
+			</div>
+		</div>
 	</header><!-- #masthead -->
   <div class="header-ghost"></div>

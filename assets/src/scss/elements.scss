@@ -83,6 +83,19 @@ td:last-child {
   }
 }
 
+.u-overlay {
+  position: relative;
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(17, 17, 17, 0.2);
+  }
+}
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 hr {
