@@ -19,7 +19,7 @@
 					$('.img-slider').slick({
 						adaptiveHeight: false,
 						autoplay: true,
-						autoplaySpeed: 800,
+						autoplaySpeed: 6800,
 						draggable: false,
 						infinite: true,
 						dots: false,

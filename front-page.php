@@ -13,10 +13,8 @@
 
     <div class="img-slider">
 
-      <div style="background-image:url('http://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2010/6/30/0/original_westelm-ivory-sectional-sofa-rustic-fireplace_s4x3.jpg.rend.hgtvcom.1280.960.jpeg')">
-      </div>
-      <div style="background-image:url('http://1e80e91791c77f3963da-43cd21de5278e13d6570c861b87ff62e.r38.cf1.rackcdn.com/2013/12/west-elm.jpg')">
-      </div>
+      <div style="background-image:url('http://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2010/6/30/0/original_westelm-ivory-sectional-sofa-rustic-fireplace_s4x3.jpg.rend.hgtvcom.1280.960.jpeg')"></div>
+      <div style="background-image:url('http://yacineaziz.com/wp-content/uploads/2014/10/Tremendous-West-Elm-Rugs-decorating-ideas-for-Home-Office-Transitional-design-ideas-with-Tremendous-asian-calligraphy-black.jpg')"> </div>
       <div style="background-image:url('http://3.design-milk.com/images/2015/06/West-Elm-Workspace-1-Mid-Century.jpg')">
       </div>
 
