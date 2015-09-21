@@ -15,7 +15,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@whiteboardis">
+<meta name="twitter:site" content="@sham2bam">
 
 <meta name="twitter:title" content="<?php the_title(); ?>">
 <meta name="twitter:description" content="">
@@ -33,7 +33,7 @@
 
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> <?php the_title(); ?>>
 
 	<header class="site-header" role="banner">
 		<div class="container">

@@ -129,3 +129,24 @@ require get_template_directory() . '/inc/template-tags.php';
  * Custom functions that act independently of the theme templates.
  */
 require get_template_directory() . '/inc/extras.php';
+
+
+/**
+* News Releases Custom Post Type - Below
+**/
+
+add_action( 'init', 'create_post_type' );
+function create_post_type() {
+  register_post_type( 'projects',
+    array(
+      'labels' => array(
+        'name' => __( 'Projects' ),
+        'singular_name' => __( 'Project' )
+      ),
+      'public' => true,
+      'has_archive' => true,
+			'supports' => array('thumbnail','title','categories','editor','author','revisions'),
+			'taxonomies' => array('category')
+    )
+  );
+}
